@@ -1,0 +1,10 @@
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\bin\Debug\A20200718_2.exe.config
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\bin\Debug\A20200718_2.exe
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\bin\Debug\A20200718_2.pdb
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\obj\Debug\A20200718_2.csprojAssemblyReference.cache
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\obj\Debug\A20200718_2.MainForm.resources
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\obj\Debug\A20200718_2.Properties.Resources.resources
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\obj\Debug\A20200718_2.csproj.GenerateResource.cache
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\obj\Debug\A20200718_2.csproj.CoreCompileInputs.cache
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\obj\Debug\A20200718_2.exe
+C:\Users\Apple.Chien\Desktop\C.net\A20200718_2\A20200718_2\obj\Debug\A20200718_2.pdb

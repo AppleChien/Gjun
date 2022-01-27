@@ -1,0 +1,59 @@
+public class Sale
+{
+public static void main(String args[])
+{
+int A[] ={10,20,40,30,20};
+int B[][]={{100,200,100,200,110},
+{200,100,100,200,100},
+{100,200,70,100,200},
+{100,80,100,200,110},
+{200,100,90,200,100},
+{100,200,200,100,120},
+{100,200,70,200,110},
+{200,100,120,200,100},
+{100,150,200,100,200}};
+printOne(A);
+printTwo(B);
+compute(A,B);
+}
+public static void printOne(int A[]){
+System.out.print("產品價格: "+"\t");
+for(int i=0;i<A.length;i++)
+{
+System.out.print(A[i]+"\t");
+}
+System.out.println();
+}
+public static void printTwo(int B[][]){
+for(int i=0;i<B.length;i++)
+{
+System.out.print("銷售員"+(i+1)+"的銷售量: ");
+for(int j=0;j<B[i].length;j++)
+{
+System.out.print(B[i][j]+"\t");
+}
+System.out.println();
+}
+System.out.println();
+}
+public static void compute(int A[],int B[][]){
+int sum[] = new int[B.length];
+int max=sum[0],maxindex=0;
+for(int i=0;i<B.length;i++)
+{
+for(int j=0;j<A.length;j++)
+{
+sum[i] += A[j]*B[i][j];
+}
+if(sum[i]>max)
+{
+max=sum[i];
+maxindex=i+1;
+}
+System.out.println("銷售員"+(i+1)+"的業績:"+sum[i]+" , 達成比率:"+((sum[i]/(float)10000)*100+"%"));
+}
+System.out.println();
+System.out.println("銷售員"+maxindex+"具有最好的業績");
+System.out.println();
+}
+}

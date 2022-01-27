@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Identity.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=BIG5">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <img src=servlet/IdentityServlet id="Identity" onload=btn.disabled=false >
+    <input type="submit" id="btn" value="更換圖片" onclick="reloadImage()">
+    <script>
+      function reloadImage(){
+       document.getElementById('btn').disabled=true;
+       document.getElementById('Identity').src='servlet/IdentityServlet?ts='+new Date().getTime();
+      }
+      
+      
+      
+    </script>
+    
+    
+    
+    
+  </body>
+</html>

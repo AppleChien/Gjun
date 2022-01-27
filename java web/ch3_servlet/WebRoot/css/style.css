@@ -1,0 +1,16 @@
+ 
+      body,div,td,input{font-size:15px;margin:0px;}
+      select{height:20px;width:300px;}
+      .title{font-size:16px;padding:10px;margin:10px;width:80%;}
+      .text{height:22px;width:300px;border:1px solid #AAAAAA}
+      .line{margin:13px;}
+      .leftDiv{width:150px;float:left;height:22px;line-height:22px;font-weight:bold;}
+      .rightDiv{height:22px;}
+      .button{
+         font-weight:bold;
+         font-size:13px;
+         border-style:solid;
+         text-align:center;
+         border-weight:2px;
+         border-color:#337788;
+      }
